@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "permissions": ["scripting", "webNavigation"],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "name": "Excludes Paid Promotion",
+  "description": "Removes \"Includes paid promotion\" badge from YouTube thumbnails to prevent accidental clicks on it",
+  "version": "1.0.0",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "service_worker": "main.js"
+  }
+}
